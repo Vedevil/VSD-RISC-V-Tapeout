@@ -60,7 +60,7 @@ This lays the foundation for the RTL to GDSII journey.
 
 ---
 
-### **Overall Flow**
+
 ## 📝 Week 0 - Task 2 Tools Setup
 ### 🧰 Tools Used
 
@@ -73,8 +73,4 @@ This lays the foundation for the RTL to GDSII journey.
 
 ---
 
-### 📌 How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Vedevil/VSD-RISC-V-Tapeout.git
