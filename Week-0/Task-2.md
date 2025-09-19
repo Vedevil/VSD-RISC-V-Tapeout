@@ -15,10 +15,13 @@ $ sudo make install
 ```bash
 $ yosys -V
 ```  
+<img width="917" height="771" alt="Screenshot from 2025-09-19 23-31-26" src="https://github.com/user-attachments/assets/3d6b6e22-c9a1-4ff3-a74f-b791f1a2b7ca" />
 
 ✅ Yosys installed successfully
 
+
 ---
+
 
 ### 2️⃣ Icarus Verilog – Verilog Simulation
 **Purpose:** Compiles and simulates Verilog designs for functional verification.
@@ -31,9 +34,13 @@ $ sudo apt-get install iverilog
 ```bash
 $ iverilog -V  
 ```
+<img width="785" height="309" alt="image" src="https://github.com/user-attachments/assets/277bd30d-6948-456e-8a33-bdcede74a98a" />
+
 ✅ Icarus Verilog installed successfully
 
+
 ---
+
 
 ### 3️⃣ GTKWave – Waveform Viewer
 **Purpose:** Analyzes and visualizes simulation waveforms for debugging.
@@ -47,6 +54,7 @@ $ sudo apt install gtkwave
 ```bash
 $ gtkwave  
 ```
+<img width="1783" height="780" alt="image" src="https://github.com/user-attachments/assets/11652fec-e616-4fda-a12a-7e495cd3cdb0" />
 
 ✅ GTKWave installed successfully
 
@@ -64,9 +72,13 @@ $ sudo apt install ngspice
 ```bash
 $ ngspice  
 ```
+<img width="925" height="282" alt="image" src="https://github.com/user-attachments/assets/326d4ae6-01ea-4689-aa74-a28fbed8b5dc" />
+
 ✅ Ngspice installed successfully
 
+
 ---
+
 
 ### 5️⃣ Magic VLSI – Layout Tool
 **Purpose:** Creates, edits, and analyzes VLSI layouts with DRC capabilities.
@@ -85,9 +97,13 @@ $ sudo make install
 ```bash
 $ magic -d XR  
 ```
+<img width="1710" height="913" alt="image" src="https://github.com/user-attachments/assets/19f4265f-715f-4066-b512-203dcd9ec48b" />
+
 ✅ Magic VLSI installed successfully
 
+
 ---
+
 
 ### 🎉 Installation Summary
 
