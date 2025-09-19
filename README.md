@@ -5,10 +5,10 @@ This repository will keep track of the weekly progress of the RISC-V Tapeout pro
 
 ## ✅ Week 0 – Progress
 
-| Task   |              Description             |     Status     |
-|--------|--------------------------------------|----------------|
-| Task 0 | Install and verify open-source tools | ✅ Completed   |
-| Task 1 | Summarize the video on SoC design flow | ✅ Completed   |
+|Week| Task   |              Description             |     Status     |
+|---|--------|--------------------------------------|----------------|
+|Week 0| Task 1 | Summarize the video on SoC design flow | ✅ Completed   |
+|Week 0| Task 1 | Install and verify open-source tools | ✅ Completed   |
 
 ---
 
@@ -61,3 +61,20 @@ This lays the foundation for the RTL to GDSII journey.
 ---
 
 ### **Overall Flow**
+## 🧰 Tools Used
+
+- **Yosys** – RTL synthesis  
+- **Icarus Verilog** – Simulation  
+- **GTKWave** – Waveform viewing  
+- **OpenLane** – Full digital flow  
+- **Magic** – Layout visualization  
+- **Netgen** – LVS check  
+- **Sky130 PDK** – Process design kit  
+
+---
+
+## 📌 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
