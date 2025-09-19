@@ -6,7 +6,7 @@ This repository will keep track of the weekly progress of the RISC-V Tapeout pro
 
 | Task   |              Description             |     Status     |
 |--------|--------------------------------------|----------------|
-| Task 0 | Install and verify open-source tools | ⚙️ In Progress |
+| Task 0 | Install and verify open-source tools | ✅ Completed   |
 
 ---
 
