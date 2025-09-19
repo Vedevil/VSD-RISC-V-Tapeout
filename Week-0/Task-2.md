@@ -2,17 +2,19 @@
 **Purpose:** Converts RTL code into gate-level representations for synthesis and optimization.
 
 **Installation:**
-``bash
- git clone https://github.com/YosysHQ/yosys.git  
- cd yosys  
- sudo apt install build-essential clang bison flex libreadline-dev gawk \
+```bash
+$ git clone https://github.com/YosysHQ/yosys.git  
+$ cd yosys  
+$ sudo apt install build-essential clang bison flex libreadline-dev gawk \
     tcl-dev libffi-dev git graphviz xdot pkg-config python3 \
     libboost-system-dev libboost-python-dev libboost-filesystem-dev zlib1g-dev  
- make  
- sudo make install  
-
+$ make  
+$ sudo make install  
+```
 **Verification:**  
-$ yosys -V  
+```bash
+$ yosys -V
+```  
 
 ✅ Yosys installed successfully
 
@@ -22,11 +24,13 @@ $ yosys -V
 **Purpose:** Compiles and simulates Verilog designs for functional verification.
 
 **Installation:**  
+```bash
 $ sudo apt-get install iverilog  
-
+```
 **Verification:**  
+```bash
 $ iverilog -V  
-
+```
 ✅ Icarus Verilog installed successfully
 
 ---
@@ -35,11 +39,14 @@ $ iverilog -V
 **Purpose:** Analyzes and visualizes simulation waveforms for debugging.
 
 **Installation:**  
+```bash
 $ sudo apt update  
 $ sudo apt install gtkwave  
-
+```
 **Verification:**  
+```bash
 $ gtkwave  
+```
 
 ✅ GTKWave installed successfully
 
@@ -49,12 +56,14 @@ $ gtkwave
 **Purpose:** Performs analog and mixed-signal circuit simulations.
 
 **Installation:**  
+```bash
 $ sudo apt update  
 $ sudo apt install ngspice  
-
+```
 **Verification:**  
+```bash
 $ ngspice  
-
+```
 ✅ Ngspice installed successfully
 
 ---
@@ -63,6 +72,7 @@ $ ngspice
 **Purpose:** Creates, edits, and analyzes VLSI layouts with DRC capabilities.
 
 **Installation:**  
+```bash
 $ sudo apt-get install m4 tcsh csh libx11-dev tcl-dev tk-dev \
     libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev  
 $ git clone https://github.com/RTimothyEdwards/magic  
@@ -70,10 +80,11 @@ $ cd magic
 $ ./configure  
 $ make  
 $ sudo make install  
-
+```
 **Verification:**  
+```bash
 $ magic -d XR  
-
+```
 ✅ Magic VLSI installed successfully
 
 ---
