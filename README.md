@@ -12,7 +12,7 @@ This repository will keep track of the weekly progress of the RISC-V Tapeout pro
 
 ---
 
-## 📝 Week 0 - Task 1 Summary
+## 📝 Week 0 - Task 1 Video Summary
 
 The Week 0 Task 1 objective is to **understand and summarize the SoC design flow** explained by **Kunal Ghosh** in the introductory video.  
 This lays the foundation for the RTL to GDSII journey.
@@ -61,20 +61,20 @@ This lays the foundation for the RTL to GDSII journey.
 ---
 
 ### **Overall Flow**
-## 🧰 Tools Used
+## 📝 Week 0 - Task 2 Tools Setup
+### 🧰 Tools Used
 
 - **Yosys** – RTL synthesis  
 - **Icarus Verilog** – Simulation  
 - **GTKWave** – Waveform viewing  
 - **OpenLane** – Full digital flow  
-- **Magic** – Layout visualization  
-- **Netgen** – LVS check  
+- **Magic** – Layout visualization    
 - **Sky130 PDK** – Process design kit  
 
 ---
 
-## 📌 How to Use
+### 📌 How to Use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/Vedevil/VSD-RISC-V-Tapeout.git
