@@ -162,6 +162,13 @@ Let's synthesize the multiplexer using Yosys and visualize its gate-level implem
 This will open a window showing the synthesized schematic of your design.
 
 ---
+## Output Windows
+### Gtkwave Waveform
+<img width="1060" height="158" alt="image" src="https://github.com/user-attachments/assets/a6acca29-bbf7-455c-8c5b-12603a3aa282" />
+
+### Schematic
+<img width="588" height="190" alt="image" src="https://github.com/user-attachments/assets/09d3e695-e4f5-4bae-9c7a-f02cd7a53364" />
+
 
 ## Summary
 
