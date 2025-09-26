@@ -64,8 +64,6 @@ To open the `sky130_fd_sc_hd__tt_025C_1v80.lib` file:
    gedit sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 
-*Screenshot_2025-05-29_11-43-13*
-
 ---
 
 ## Hierarchical vs. Flattened Synthesis
@@ -86,7 +84,8 @@ To open the `sky130_fd_sc_hd__tt_025C_1v80.lib` file:
 - Reporting can require additional configuration.
 
 **Example:**
-*Screenshot_2025-05-29_19-04-48*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8dd1991a-d792-4137-acc9-78872117ab4f" />
+
 
 ### Flattened Synthesis
 
@@ -104,7 +103,8 @@ To open the `sky130_fd_sc_hd__tt_025C_1v80.lib` file:
 - Can increase memory usage and netlist complexity.
 
 **Example:**
-*Screenshot_2025-05-29_19-20-47*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/61f75db3-39ab-40c6-a928-6a2554db32a5" />
+
 
 > **Important:** Hierarchical synthesis maintains sub-modules in the design, while flattening produces a netlist from the ground up.
 
@@ -189,8 +189,6 @@ endmodule
    gtkwave tb_dff_asyncres.vcd
    ```
 
-*Screenshot_2025-05-30_10-45-13*
-
 ### Synthesis with Yosys
 
 1. **Start Yosys:**
@@ -228,11 +226,15 @@ endmodule
    show
    ```
 
-*Screenshot_2025-05-30_11-03-00*
 
 ---
 ## Output Windows
+### GtkWave Waveform
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4fe45386-87b8-4e9a-8e54-b8427d88c3d9" />
+
+
 ### schemetic
+<img width="1920" height="1080" alt="Screenshot from 2025-09-27 00-08-13" src="https://github.com/user-attachments/assets/a13f4577-adfc-4e32-b889-f8a61a81f38e" />
 
 
 
