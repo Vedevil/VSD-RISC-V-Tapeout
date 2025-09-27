@@ -160,7 +160,7 @@ endmodule
 - `y = i1` when `sel = 1`
 - `y = i0` when `sel = 0`
 
-**Lab 1 Waveform :**
+**Lab 1 Waveform**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e3a45a69-e6e5-4d26-85c5-c7bdc4675f2e" />
 
 
@@ -173,7 +173,9 @@ endmodule
 2. Examine synthesized netlist
 3. Verify gate count and logic optimization
 
-*Lab 2 Results*
+**Lab 2 Schematic**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/49bea2ad-6bbd-41d7-8931-14e9d66858f9" />
+
 
 ### Lab 3: Gate-Level Simulation of MUX
 
@@ -189,7 +191,8 @@ iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v
 - Verify identical functional behavior
 - Check timing if SDF is included
 
-*Lab 3 Results*
+**Lab 3 Waveform (GLS)**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6ff3c26c-5d3f-45b1-a552-01a1158bbfb0" />
 
 ### Lab 4: Bad MUX Example
 
@@ -223,7 +226,9 @@ module good_mux (input i0, input i1, input sel, output reg y);
 endmodule
 ```
 
-*Lab 4 Results*
+**Lab 4 Waveform**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d45ecea-b8d4-416e-9c3a-6d5cf2422a02" />
+
 
 ### Lab 5: GLS of Bad MUX
 
@@ -234,7 +239,9 @@ endmodule
 - Potential functional differences between RTL and GLS
 - Incorrect inference of sequential vs. combinational logic
 
-*Lab 5 Results*
+**Lab 5 Waveform (GLS)**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e56657fd-f92b-427f-bb3d-1a615279ff06" />
+
 
 ### Lab 6: Blocking Assignment Caveat
 
@@ -264,7 +271,10 @@ module blocking_fixed (input a, input b, input c, output reg d);
 endmodule
 ```
 
-*Lab 6 Results*
+**Lab 6 Waveform**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1c800fd4-faf6-4e4c-b560-2d67799886a2" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de226df9-1aaf-456a-87f2-2241489c818f" />
 
 ### Lab 7: Synthesis of Corrected Module
 
@@ -276,7 +286,8 @@ endmodule
 - Timing characteristics
 - Area implications
 
-*Lab 7 Results*
+**Lab 7 Schematic**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/630033b4-f839-4c6a-a33e-fc53199ebec2" />
 
 ---
 
@@ -319,11 +330,3 @@ endmodule
 - Explore power analysis using gate-level simulations
 - Practice with more complex design verification scenarios
 
----
-
-## References
-
-- [IEEE Std 1364-2005 Verilog Hardware Description Language](https://standards.ieee.org/standard/1364-2005.html)
-- [Synthesis and Simulation Design Guide](https://www.synopsys.com/support/training.html)
-- [SystemVerilog Assertions and Functional Coverage](https://www.springer.com/gp/book/9780387361642)
-- [Static Timing Analysis for Nanometer Designs](https://www.springer.com/gp/book/9780387938196)
